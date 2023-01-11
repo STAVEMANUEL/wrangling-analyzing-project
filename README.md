@@ -1,8 +1,9 @@
-# wrangling-analyzing-project
+## wrangling-analyzing-project
 gathered, assessed, clean and analyze WeRateDog twitter user using: Python 
 
 
-summery findings
+### summery findings:
+
 1.The most popular breed is golden retriver, in second place: lavrdor retriver.
 
 2.The most popular dog names is Copper, charlie and oliver.
