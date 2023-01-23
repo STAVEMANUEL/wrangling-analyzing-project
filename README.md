@@ -9,7 +9,8 @@ Scrolling through the twitter_archive_enhanced.csv and image_predictions.tsv fil
 
 As part of my analysis i used info method to identify erroneous datatypes and other quality issues. In order to verify i used value counts method in test fields.
 
-Assessing Data
+Assessing Data: 
+
 the timestamp is object - it should be datetime.
 
 not all tweets about dogs.
@@ -25,3 +26,16 @@ retweet and favorite count are float datatype.
 the source column is with 3 values , aranged as html code.
 
 the source are object datatype and not a category.
+
+Tidiness issues:
+
+there is urls inside the text cloumn.
+
+we can arrange all doggo, floofer, pupper and puppo on one categoy column.
+
+In order to identify incorrect data types and other quality issues, I used Panda's information method.My next step was to look for problems using the value_counts method. I also found a cleanliness issue during my inspection. These activities helped me identify my quality problems.
+The quality and tidiness issues were all related to this table, so I created a copy of only this table and named it copy_df. I performed the programmatic data cleaning process in three stages - Define, Code, and Test - for each quality/tidiness issue. During the cleaning process, I converted source and newly created stage columns to category datatypes.
+In the twitter_archive_master.csv file, I saved the copy_df DataFrame after cleaning.
+
+
+
